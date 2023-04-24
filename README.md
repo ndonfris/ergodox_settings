@@ -1,6 +1,7 @@
 # ergodox_settings
 
-
+- [current layout](https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0)
+    
 ![layer\_1](./pics/layer_1.png)
 ![layer\_2](./pics/layer_2.png)
 ![layer\_3](./pics/layer_3.png)
@@ -8,6 +9,7 @@
 ![layer\_5](./pics/layer_5.png)
 ![layer\_6](./pics/layer_6.png)
 ![layer\_7](./pics/layer_7.png)
+![layer\_8](./pics/layer_8.png)
 
 
 ### current is WrKY4
