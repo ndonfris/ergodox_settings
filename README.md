@@ -1,5 +1,15 @@
 # ergodox_settings
 
+
+![layer\_1](./layer_1.png)
+![layer\_2](./layer_2.png)
+![layer\_3](./layer_3.png)
+![layer\_4](./layer_4.png)
+![layer\_5](./layer_5.png)
+![layer\_6](./layer_6.png)
+![layer\_7](./layer_7.png)
+
+
 ### current is WrKY4
 
 * https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0  
