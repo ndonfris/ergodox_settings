@@ -11,6 +11,13 @@
 ![layer\_7](./pics/layer_7.png)
 ![layer\_8](./pics/layer_8.png)
 
+### KEYBOARD-SHORTCUTS:
+
+- _super+b_ - open btop (process list CLI)
+- _super+e_ - open browser
+- _super+t_ - open terminal
+- _super+r_ - open ranger (file manager CLI)
+
 
 ### current is WrKY4
 
