@@ -1,6 +1,8 @@
 # ergodox_settings
 
-- [current layout](https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0)
+- [current layout](https://configure.zsa.io/ergodox-ez/layouts/5JXdX/latest/0)
+
+- [older layout](https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0)
 
 ![layer\_1](./pics/layer_1.png)
 ![layer\_2](./pics/layer_2.png)
