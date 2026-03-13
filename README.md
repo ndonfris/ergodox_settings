@@ -1,8 +1,27 @@
-# ergodox_settings
+# ERGODOX SETTINGS & LAYOUTS
+Here is where I store my ergodox-ez compiled firmware flashing files + helpful docs/notes I've come across while using this board.
 
-- [current layout](https://configure.zsa.io/ergodox-ez/layouts/5JXdX/latest/0)
+> [!NOTE]
+> One day when I am less poor and busy, I will attempt to convert the ergodox housing to a electro-capacitive (topre) style board.
+>
+> ATM I am using lubed and spring swapped durock shrimp silent tactile switches, which are the closest replication to the topre feeling I miss from my HHKB.
+>
+> For anyone who is interested in working on building a ec ergodox/torpedox/bigger split ec board, please reach out!
 
-- [older layout](https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0)
+## Quick links
+
+- [ORYX](https://configure.zsa.io/) - web-based layout editor and firmware compiler for zsa keyboards (ergodox ez, moonlander, planck ez, voyager)
+- [ZSA](https://www.zsa.io/voyager) - homepage for zsa, the company that makes the ergodox ez, moonlander, planck ez, and voyager keyboards
+- [WALLY](https://ergodox-ez.com/pages/wally) - old firmware flashing software for zsa keyboards (seems to be more reliable than keymapp, in my experience)
+- [KEYMAPP](https://www.zsa.io/flash) - newer firmware flashing software for zsa keyboards
+
+## Layouts
+
+- [current layout](https://configure.zsa.io/ergodox-ez/layouts/5JXdX/latest/0) `5JXdX` `main [fork]`
+- [older layout](https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0) `WrKY4` `[main]`
+
+> [!NOTE]
+> Screenshots aren't guaranteed to be up to latest layout, but should be close enough to my general layout.
 
 ![layer\_1](./pics/layer_1.png)
 ![layer\_2](./pics/layer_2.png)
@@ -13,7 +32,7 @@
 ![layer\_7](./pics/layer_7.png)
 ![layer\_8](./pics/layer_8.png)
 
-## [keymapp](https://github.com/zsa/wally/wiki/Linux-install)
+## [KEYMAPP](https://github.com/zsa/wally/wiki/Linux-install)
 
 ### install dependencies
 
@@ -119,6 +138,12 @@ gtk-update-icon-cache -f -t ~/.local/share/icons
 - _super+e_ - open browser
 - _super+t_ - open terminal
 - _super+r_ - open ranger (file manager CLI)
+- _super+1_ - start `wrapd` in one shot mode (control mouse w/ vim navigation, but only for one command)
+- _super+2_ - start `wrapd` in normal mode (control mouse w/ vim navigation until `esc`)
+- _super+f_ - open `natilus` (file manager CLI)
+
+> [!NOTE]
+> Most other system level shortcuts I use with this keyboard configuration is tied to `pop!_os` and `gnome` defaults, which essentially just make `super+[hjkl]` and other vim motions work for window management and workspace management.
 
 ### current is WrKY4
 
@@ -144,4 +169,3 @@ gtk-update-icon-cache -f -t ~/.local/share/icons
 - [wally](https://ergodox-ez.com/pages/wally) is the __old__ keyboard flashing firmware
   - wally executable is in the following location: `/usr/local/bin/wally`
 - [ergodox-ez website](https://ergodox-ez.com/ )
-
