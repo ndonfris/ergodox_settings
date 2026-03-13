@@ -1,4 +1,5 @@
 # ERGODOX SETTINGS & LAYOUTS
+
 Here is where I store my ergodox-ez compiled firmware flashing files + helpful docs/notes I've come across while using this board.
 
 > [!NOTE]
@@ -17,22 +18,23 @@ Here is where I store my ergodox-ez compiled firmware flashing files + helpful d
 
 ## Layouts
 
+> [!WARNING]
+> Apologies if the screenshots contain minor inconsistencies. I tend to update them in batches
+
 - [current layout](https://configure.zsa.io/ergodox-ez/layouts/5JXdX/latest/0) `5JXdX` `main [fork]`
+
+  ![layer\_0](./pics/layer_0.png)
+  ![layer\_1](./pics/layer_1.png)
+  ![layer\_2](./pics/layer_2.png)
+  ![layer\_3](./pics/layer_3.png)
+  ![layer\_4](./pics/layer_4.png)
+  ![layer\_5](./pics/layer_5.png)
+  ![layer\_6](./pics/layer_6.png)
+  ![layer\_7](./pics/layer_7.png)
+
 - [older layout](https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0) `WrKY4` `[main]`
 
-> [!NOTE]
-> Screenshots aren't guaranteed to be up to latest layout, but should be close enough to my general layout.
-
-![layer\_1](./pics/layer_1.png)
-![layer\_2](./pics/layer_2.png)
-![layer\_3](./pics/layer_3.png)
-![layer\_4](./pics/layer_4.png)
-![layer\_5](./pics/layer_5.png)
-![layer\_6](./pics/layer_6.png)
-![layer\_7](./pics/layer_7.png)
-![layer\_8](./pics/layer_8.png)
-
-## [KEYMAPP](https://github.com/zsa/wally/wiki/Linux-install)
+## [KEYMAPP INSTALLATION](https://github.com/zsa/wally/wiki/Linux-install)
 
 ### install dependencies
 
@@ -134,23 +136,26 @@ gtk-update-icon-cache -f -t ~/.local/share/icons
 
 ## KEYBOARD-SHORTCUTS
 
-- _super+b_ - open btop (process list CLI)
-- _super+e_ - open browser
-- _super+t_ - open terminal
+- _super+b_ - open `btop` (process list CLI)
+- _super+e_ - open browser `firefox`
+- _super+t_ - open terminal `alacritty`
 - _super+r_ - open ranger (file manager CLI)
 - _super+1_ - start `wrapd` in one shot mode (control mouse w/ vim navigation, but only for one command)
 - _super+2_ - start `wrapd` in normal mode (control mouse w/ vim navigation until `esc`)
-- _super+f_ - open `natilus` (file manager CLI)
+- _super+f_ - open `nautilus` (file manager)
+- _super+c_ - open clipboard manager gui
+- _super+n_ - select next clipboard item in clipboard manager
+- _super+p_ - select previous clipboard item in clipboard manager
 
 > [!NOTE]
 > Most other system level shortcuts I use with this keyboard configuration is tied to `pop!_os` and `gnome` defaults, which essentially just make `super+[hjkl]` and other vim motions work for window management and workspace management.
 
-### current is WrKY4
+<!-- ### current is WrKY4 -->
+<!---->
+<!-- - [current](https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0)   -->
+<!-- - [ergodox-zsa](https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0 ) -->
 
-- [current](https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0)  
-- [ergodox-zsa](https://configure.zsa.io/ergodox-ez/layouts/WrKY4/latest/0 )
-
-### Steps to flash board w/ 'wally'
+## Steps to flash board w/ 'wally'
 
 1. Open __current__ layout
 1. Update and save to: `~/Downloads/ergodox_layouts/`
@@ -160,7 +165,7 @@ gtk-update-icon-cache -f -t ~/.local/share/icons
   sudo wally
   ```
 
-1. Either `L5+Enter` or Have a paperclip ready, and flash the board.
+1. Either `L5+Enter` (`L5` is the bottom right most key) or Have a paperclip ready, and flash the board.
 
 ### More Info/Links
 
